@@ -1,0 +1,11 @@
+Vab Wideband
+Vdc = 72 V
+carrier phase shift (phase) = 60
+reference phase shift (phase_ref) = 180 (0.5)
+
+
+fModulationIndexDefault = 0.8
+fundamental_freq = 63500
+operation_frequeuency = 869500
+
+LOOPFREQUENCY    869500

@@ -1,0 +1,90 @@
+## Triple Region ##
+
+
+## Region 1 ##
+
+Fsw = 896500 Hz
+Ffund = 63500 Hz
+ma = 0.8
+carrier phase = 180
+reference phase = 0.1667
+
+60ms / 200ms = 30 % 
+
+V_in  = 72V
+I_in = 0.72
+
+high_freq 
+V_out = 5.94 V
+R_load = 4.7 ohm
+
+
+low_freq = 
+V_out = 7.588 V
+R_load = 4.7 ohm
+
+No load current = 0.18
+
+Eff = 0.5082 / 0.3811
+
+inv_out_power = 40.1W 
+
+## Region 2 ##
+
+Fsw = 896500 Hz
+Ffund = 63500 Hz
+ma = 0.8
+carrier phase = 180
+reference phase = 0.5
+
+70ms / 200ms = 35 % 
+
+V_in  = 72V
+I_in = 1.57
+
+high_freq 
+V_out = 6.21V
+R_load = 4.7 ohm
+
+
+low_freq = 
+V_out = 16.74 V
+R_load = 4.7 ohm
+
+No load current = 0.18
+
+Eff = 0.6777 / 0.6000
+
+inv_out_power = 97.76W 
+
+## Region 3 ##
+
+Fsw = 896500 Hz
+Ffund = 63500 Hz
+ma = 0.8
+carrier phase = 60
+reference phase = 0.355
+
+70ms / 200ms = 35 % 
+
+V_in  = 72V
+I_in = 1.30
+
+high_freq 
+V_out = 3.287V
+R_load = 4.7 ohm
+
+
+low_freq = 
+V_out = 16.87 V
+R_load = 4.7 ohm
+
+No load current = 0.18
+
+Eff = 0.7794 / 0.6715
+
+inv_out_power = 79.55W 
+
+
+
+ 

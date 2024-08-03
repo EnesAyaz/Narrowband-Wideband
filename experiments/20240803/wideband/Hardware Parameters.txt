@@ -1,0 +1,27 @@
+Transmitter
+Ctx-1 = 81.97 pF @ 1 MHz
+Ctx-2 = 87.82 nF @ 100 kHz
+	178.4 nF @ 1 MHz
+
+Ltx-1 = 46.1 uH @ 100 kHz
+Ltx-2 = 19.952 uH @ 100 kHz
+
+Receiver-1 (LF)
+Crx-1 = 62.9 nF @ 63500 Hz
+Lrx-1 = 95.4 uH @ 100 kHz
+
+M1 = 13.385 uH @ 100 kHz
+K1 = 0.2018 @ 100 kHz
+
+
+Receiver-2 (HF) 
+Lrx-2 = 96.06 uH @ 100 kHz
+	123.26 uH @ 869.5 kHz
+
+Crx-2 = 298.96 pF @ 1 MHz
+
+M2 = 19.15 uH @ 100 kHz
+K2 = 0.2876 @ 100 kHz
+
+ 
+
