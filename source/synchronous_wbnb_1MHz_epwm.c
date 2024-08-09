@@ -15,13 +15,13 @@
 #define MOTORFREQUENCY          50            // Hz			/*need to define this as constant value rather than macro, for control loop*/
 
 
-#define SWITCHINGFREQUENCY      868000       // 1 MHz
+#define SWITCHINGFREQUENCY      1190000       // 1 MHz
 
 
-float operation_frequency = 868000;  // 2 MHz
+float operation_frequency = 1190000;  // 2 MHz
 
-#define LOOPFREQUENCY    868000 // 2 MHz
-#define DEADTIME 			        40	 // ns
+#define LOOPFREQUENCY    1190000 // 2 MHz
+#define DEADTIME 			        50	 // ns
 #define OPENLOOPCONTROLMODE 	1
 #define CONTROLMODE           OPENLOOPCONTROLMODE //OPENLOOPCONTROLMODE /*Use this to define the control mode each time*/
 
@@ -61,9 +61,9 @@ __interrupt void epwm3_isr(void);
 float fModulationIndexModule1;
 float fModulationIndexModule2;
 float fModulationIndexModule4;
-float fModulationIndexDefault=0;
+float fModulationIndexDefault=1;
 float duty_cycle=0.5;
-float phase_ref = 0.16667;
+float phase_ref = 0.22;
 
 uint32_t Epwm3Counter=0;
 
@@ -77,7 +77,7 @@ float fEpwm4DutyCycle = 0.0;
 float VFMODE =0;
 float ma_max= 0.8;
 float f_max= 20.0;
-float fundamental_freq=63500;
+float fundamental_freq=119500;
 int sayi=1;
 float phase = 180;
 
@@ -86,6 +86,7 @@ unsigned long t0 = 0;
 int flag = 2;
 
 int main(void)
+
 
 {
 
@@ -237,16 +238,17 @@ int main(void)
 
 
     	// BELOW USED IN NARROW WIDE
-			if (phase == 180 && flag == 0){
-			    phase_ref = 0.5;
-				t0=Epwm3Counter;
-				flag=1;
-			}
-
-			if (flag==1 && Epwm3Counter > t0 + 60865){
-				phase = 60;
-				phase_ref=0.355;
-			}
+//			if (flag == 0){
+//			    //phase_ref = 0.5;
+//				phase = 30;
+//			    t0=Epwm3Counter;
+//				flag=1;
+//			}
+//
+//			if (flag==1 && Epwm3Counter > t0 + 60){
+//				phase = 27;
+//				phase_ref=0.4;
+//			}
 			//if (phase_ref == 0.0){phase = 110;}
 
 }
@@ -356,6 +358,18 @@ __interrupt void epwm3_isr(void)
 //	if (flag==1 && CpuTimer0.InterruptCount > t0+10000){
 //		phase_ref=0;
 //	}
+
+    if (flag == 0){
+        phase_ref = 0.425;
+        phase = 120;
+        t0=Epwm3Counter;
+        flag=1;
+    }
+
+    if (flag==1 && Epwm3Counter > t0 + 16660){
+        phase = 43;
+        phase_ref=0.32;
+    }
 
 
 

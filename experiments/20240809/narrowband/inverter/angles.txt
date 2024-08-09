@@ -1,0 +1,6 @@
+ma = 1
+Fsw = 1190000 kHz
+Ffund = 119.5 kHz
+
+phase_ref = 120 (0.33333)
+phase = 60 

@@ -1,0 +1,26 @@
+Transmitter
+Ctx-1 = 
+Ctx-2 =
+
+Ltx-1 = 
+Ltx-2 = 
+
+Receiver-1 (LF)
+Crx-1 = 
+Lrx-1 = 
+
+M1 = 
+K1 = 
+
+
+Receiver-2 (HF) 
+Lrx-2 = 
+	
+
+Crx-2 =
+
+M2 = 
+K2 = 
+
+ 
+

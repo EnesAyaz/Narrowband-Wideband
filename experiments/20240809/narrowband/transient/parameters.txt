@@ -1,0 +1,138 @@
+## REGION 1 ##
+
+Fsw = 1190000 kHz
+Ffund = 119.5 kHz
+ma = 1
+carrier phase = 180
+reference phase = 0.22
+
+13.33ms / 40ms = 30 % 
+
+### W/ RECTIFIER ##
+
+V_in  = 72V
+I_in = 0.27
+
+high_freq 
+V_out = 20.88 V
+R_load = 67.7 ohm
+
+low_freq = 
+V_out = 9.903 V
+R_load = 67.7 ohm
+
+Eff = 7.888 / 12.13 = 0.65
+
+inv_out_power = 12.13W 
+
+### W/O RECTIFIER ##
+
+V_in  = 72V
+I_in = 0.34
+
+high_freq 
+V_out = 25.07 V
+R_load = 67.7 ohm
+
+
+low_freq = 
+V_out = 15.06 V
+R_load = 67.7 ohm
+
+
+Eff = 12.63 / 16.93 = 0.746
+
+inv_out_power = 16.93 W 
+
+## REGION 2 ##
+
+Fsw = 1190000 kHz
+Ffund = 119.5 kHz
+ma = 1
+carrier phase = 120
+reference phase = 0.425
+
+14ms / 40ms = 35 % 
+
+### W/ RECTIFIER ##
+
+V_in  = 72V
+I_in = 0.36
+
+high_freq 
+V_out = 19.7V
+R_load =67.7 ohm
+
+low_freq = 
+V_out = 19.84 V
+R_load = 67.7 ohm
+
+Eff = 11.54 / 18.18 = 0.635
+
+inv_out_power = 18.18W 
+
+### W/O RECTIFIER ##
+
+V_in  = 72V
+I_in = 0.36
+
+high_freq 
+V_out = 22.95V
+R_load =67.7 ohm
+
+low_freq = 
+V_out = 21.38 V
+R_load = 67.7 ohm
+
+Eff = 14.53 / 19.04 = 0.763
+
+inv_out_power = 19.04W 
+
+## REGION 3 ##
+
+Fsw = 1190000 kHz
+Ffund = 119.5 kHz
+ma = 1.0
+carrier phase = 43
+reference phase = 0.32
+
+17ms / 40ms = 35 % 
+
+### W/ RECTIFIER ##
+
+V_in  = 72V
+I_in = 0.29
+
+high_freq 
+V_out = 9.442V
+R_load = 67.7 ohm
+
+low_freq = 
+V_out = 19.64 V
+R_load = 67.7 ohm
+
+
+Eff = 7.0144 / 11.60 = 0.605
+
+inv_out_power = 11.6 W 
+
+### W/O RECTIFIER ##
+
+V_in  = 72V
+I_in = 0.26
+
+high_freq 
+V_out = 11.75V
+R_load = 67.7 ohm
+
+low_freq = 
+V_out = 19.23 V
+R_load =  67.7 ohm
+
+Eff = 7.502 / 9.869 = 0.76
+
+inv_out_power = 9.869W 
+
+
+
+ 
